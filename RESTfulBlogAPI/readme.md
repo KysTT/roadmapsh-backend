@@ -10,4 +10,4 @@ get, post at /posts
 
 get, put, delete at /posts/:id 
 
-get at /posts?querry
+get at /posts?term=
