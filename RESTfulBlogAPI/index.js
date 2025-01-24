@@ -95,10 +95,4 @@ app.route('/posts/:id')
         })
     })
 
-app.route('/posts?:prms')
-    .get((req, res, next)=>{
-        let prms = req.params.prms
-        console.log(prms)
-})
-
 app.listen(3000)
